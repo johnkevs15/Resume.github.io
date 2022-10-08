@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:gray;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+.header{
+    position: relative;
+    width: 100%;
+    /* max-width: 1000px; */
+    background: #ffffff;
+    margin: 20px;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+
+.header .top{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+    border-bottom: solid 1px black;
+}
+.header .top .imgbox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header .top .imgbox .box{
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    
+}
+.header .top .imgbox .box img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header .top .profiletxt{
+    position: relative;
+    padding: 10px;
+    /* display: flex; */
+    align-items: center;
+}
+.header .top .profiletxt h3{
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+
+.header .top .profiletxt h3 span{
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    /* top: -20px; */
+}
+
+
+.contact ul{
+    position: relative;
+
+   text-align: justify;
+   padding-left: 0px;
+   
+   
+  
+}
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin:10px 0;
+    cursor: pointer;
+    
+    
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:black; 
+}
+.contact ul li span{
+    color: black;
+    font-weight: 300;
+  
+   
+}
+.container{
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    /* min-height: 100vh; */
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+   
+}
+.container .left{
+    position: relative;
+    border-right: solid 1px black;
+    padding: 10px;
+    text-align: start;
+    
+    
+   
+}
+.discription{
+    padding-top: 20px;
+    
+    
+}
+.title{
+    position: relative;
+    color:black;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+    
+}
+.discription p{
+    font-size: 20px;
+    
+}
+.personal{
+    padding-top: 20px; 
+}
+.personal_item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.fname span h3{
+    position: relative;
+    justify-content: center;
+    align-content: center; 
+    
+}
+
+.container .right{
+    position: relative;
+    padding: 10px; 
+      
+}
+.pskill{
+    padding-top: 20px; 
+}
+.pskill ul{
+    position: relative;
+   text-align: justify;
+ 
+}
+
+.pskill ul li{
+    position: relative;
+    /* list-style: none; */
+    margin:20px ;
+    cursor: pointer;
+    
+    
+    
+}
+.pskill ul li span {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:black; 
+    font-weight: 300;
+}
+
+.tskill{
+    padding-top: 20px; 
+}
+.tskill ul{
+    position: relative;
+   text-align: justify;
+ 
+}
+
+.tskill ul li{
+    position: relative;
+    /* list-style: none; */
+    margin:20px ;
+    cursor: pointer;
+    
+    
+    
+}
+.tskill ul li span {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:black; 
+    font-weight: 300;
+}
+.seminar{
+    padding-top: 20px; 
+}
+.seminar ul{
+    position: relative;
+   text-align: justify;
+ 
+}
+
+.seminar ul li{
+    position: relative;
+    /* list-style: none; */
+    margin:20px ;
+    cursor: pointer;
+    
+    
+    
+}
+.seminar ul li span {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color:black; 
+    font-weight: 300;
+}
