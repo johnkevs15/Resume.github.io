@@ -10,6 +10,19 @@ body{
     align-content: center;
     min-height: 100vh;
 }
+.btn {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(168, 2, 2);
+  }
 .header{
     position: relative;
     width: 100%;
